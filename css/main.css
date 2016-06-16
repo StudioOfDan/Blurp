@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+.head{
+    width: 100vw;
+    height: 800px;
+    background-image: url("../images/Stars.jpg");
+    background-size: cover;
+}
+h1{
+    margin: 0;
+    color: #F64747;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+}
+nav{
+    text-transform: uppercase;
+    position: fixed;
+    background-color: transparent;
+}
+nav ul li a {
+    border-left: solid #fff 0.85px;
+    font-size: 12px;
+    letter-spacing:2px;
+}
+.headerp{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 3px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.download{
+    background-color: #F64747;
+}
+.download:hover{
+    background-color: #F64410;
+}
+.documentation{
+    background-color: #F64747;
+    margin-left: 20px;
+}
+.documentation:hover{
+    background-color: #F64410;
+}
+#gettingstarted{
+    background-color: #FEFEFE;
+}
+.gs{
+    color: #000;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    text-align: center;
+    font-size:3em;
+}
+.gstext{
+    color: #777;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.card .card-content {
+     padding: 0px!important;
+    border-radius: 0 0 2px 2px;
+}
+.code{
+    color: #cc7832;
+}
+pre{
+    overflow: hidden;
+    background-color: #232525;
+    padding: 20px;
+}
+i{
+    font-size: 14px;
+    font-family: Hack, monospace;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    color: #808080!important;
+}
+.int{
+    font-size: 14px;
+    font-family: Hack, monospace;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    color: #6897bb!important;
+}
+.text{
+    font-size: 14px;
+    font-family: Hack, monospace;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    color: #a9b7c6!important;
+}
+.var{
+    font-family: Hack, monospace;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    color: #9876aa!important;
+}
+.function{
+    font-family: Hack, monospace;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    color: #ffc66d!important;
+}
+.string{
+    font-family: Hack, monospace;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    color: #6a8759!important;
+}
+strong{
+    font-weight:bolder;
+    color: #303030;
+}
