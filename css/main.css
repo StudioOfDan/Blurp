@@ -64,6 +64,12 @@ nav ul li a {
     text-align: center;
     font-size:3em;
 }
+.gs2{
+    color: #000;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size:3em;
+}
 .gstext{
     color: #777;
     padding-left: 200px;
@@ -142,6 +148,8 @@ strong{
     padding: 80px!important;
 }
 .pos h1{
+    padding-bottom: 30px;
+    /*padding-top: 50px;*/
     text-align: center;
     font-size:3em;
 }

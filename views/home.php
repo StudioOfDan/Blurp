@@ -116,16 +116,28 @@
              <div class="row nomargin">
              <p class="gstext">
                  <div  class="col s6 safety">
-                     <h1 class="gs"> Safety</h1>
+                     <h1 class="gs2"> Safety</h1>
                  The functions which are sensitive for hackers are as far as we know so good as safe, we use multiplair <strong>hashes</strong> , <strong>JWT</strong>(JSON web token) ,
                  <strong>private keys</strong> and <strong>sesions</strong> are getting regenerated. <strong class="">We don't provide 100% safety, because the framework is used with you're own code, and we can't prevent you from making mistakes in you're own code! </strong>
                      <br>
                      <br>
                      <a class="waves-effect waves-light btn whitebutton">Report errors</a><a style="margin-left: 20px;" class="waves-effect waves-light btn whitebutton">Feedback is welcome</a>
                  </div>
-                 <div  class="col s6 pos">
-                     <h1>Possibilities with Blurp</h1>
-                 </div>
+<!--                 <div  class="col s6 pos">-->
+<!--                     <h1>Possibilities with Blurp</h1>-->
+<!--                     <ul class="collection with-header">-->
+<!--                         <li class="collection-item">MySQL & Mongo Manager</li>-->
+<!--                         <li class="collection-item">Login handler</li>-->
+<!--                         <li class="collection-item">Session manager</li>-->
+<!--                         <li class="collection-item">Restriction (ban) handler</li>-->
+<!--                         <li class="collection-item">Encrypter</li>-->
+<!--                         <li class="collection-item">Decrypted</li>-->
+<!--                         <li class="collection-item">String Randomiser</li>-->
+<!--                         <li class="collection-item">Password Hasher</li>-->
+<!--                         <li class="collection-item">Integer Randomiser</li>-->
+<!--                         <li class="collection-item">Double Randomiser</li>-->
+<!--                     </ul>-->
+<!--                 </div>-->
              </p>
              </div>
          </div>
