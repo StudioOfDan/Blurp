@@ -16,9 +16,10 @@ h1{
     font-weight:bolder;
 }
 nav{
+    z-index:1000;
     text-transform: uppercase;
     position: fixed;
-    background-color: transparent;
+    background-color: #f64747;
 }
 nav ul li a {
     border-left: solid #fff 0.85px;
@@ -37,6 +38,14 @@ nav ul li a {
 }
 .download:hover{
     background-color: #F64410;
+}
+.whitebutton{
+    background-color: #fff;
+    color: #F64747;
+}
+.whitebutton:hover{
+    background-color: #fff;
+    color: #F64410;
 }
 .documentation{
     background-color: #F64747;
@@ -114,4 +123,25 @@ i{
 strong{
     font-weight:bolder;
     color: #303030;
+}
+.safety{
+    color: #fff;
+    background-color: #e53935;
+    padding: 80px!important;
+}
+.safety strong{
+    color: #fff8e1;
+}
+.safety h1{
+    color: #fff;
+}
+.nomargin{
+    margin: 0!important;
+}
+.pos{
+    padding: 80px!important;
+}
+.pos h1{
+    text-align: center;
+    font-size:3em;
 }
